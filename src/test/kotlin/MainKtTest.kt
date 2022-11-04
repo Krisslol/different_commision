@@ -70,7 +70,7 @@ class MainKtTest {
         val sumOfLastTransit: Double = 0.0
         val currentSumTransit = 1_000.00
         val res = cards(typesOfCard, sumOfLastTransit, currentSumTransit)
-        assertEquals(1_035.00, res, 0.001)
+        assertEquals(1_03.00, res, 0.001)
 
     }
 }
