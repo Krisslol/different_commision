@@ -24,7 +24,7 @@ fun comissionForMasterCardAndMaestro(sumOfLastTransit: Double, currentSumTransit
 }
 
 fun main() {
-    var price = cards("Vk Pay", 0.0, currentSumTransit = 10_000.00)
+    var price = cards("Mastercard", 0.0, currentSumTransit = 10_000.00)
     println("Сумма перевода составляет: $price")
 }
 
